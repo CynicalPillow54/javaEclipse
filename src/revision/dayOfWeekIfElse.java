@@ -45,6 +45,7 @@ public class dayOfWeekIfElse {
 				System.out.println("Day of week: Saturday");
 			}
 		}
+		keyboard.close();
 		
 	}
 
