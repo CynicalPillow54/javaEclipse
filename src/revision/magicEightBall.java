@@ -55,7 +55,6 @@ public class magicEightBall {
 		}
 		
 		// Print the response  
-		
 		System.out.println("You want to know...");
 		System.out.println(userQuestion);
 		System.out.println(randomResponse);
