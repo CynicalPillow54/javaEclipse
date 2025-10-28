@@ -47,6 +47,7 @@ public class dayOfWeekSwitch {
 					break;
 			}
 		}
+		keyboard.close();
 	}
 
 }
