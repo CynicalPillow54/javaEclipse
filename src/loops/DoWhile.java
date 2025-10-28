@@ -14,7 +14,7 @@ public class DoWhile {
 		 * 5. Exit
 		 * 
 		 * Depending on the selection provide a message
-		 * Show menu agin
+		 * Show menu again
 		 * Only stop loop when Exit is selected
 		 */
 		
