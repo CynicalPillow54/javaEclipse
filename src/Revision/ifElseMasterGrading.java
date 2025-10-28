@@ -25,6 +25,8 @@ public class ifElseMasterGrading {
 		System.out.println("Enter mark...");
 		int userMark = keyboard.nextInt();
 		
+		keyboard.close();
+		
 		if (userMark < 0 || userMark > 100) {
 			System.out.println("Pleae enter value between 0 and 100!");
 		}
