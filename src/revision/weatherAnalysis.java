@@ -1,4 +1,4 @@
-package Revision;
+package revision;
 
 public class weatherAnalysis {
 
