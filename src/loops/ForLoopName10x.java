@@ -22,6 +22,7 @@ public class ForLoopName10x {
 		}
 		
 		// Close Scanner 
+		keyboard.close();
 	}
 
 }
