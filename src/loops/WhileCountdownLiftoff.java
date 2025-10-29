@@ -3,7 +3,19 @@ package loops;
 public class WhileCountdownLiftoff {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		/**
+		 * Create a liftoff sequence using a while loop 
+		 */
+		
+		int countdown = 10;
+		
+		while(countdown >= 1) {
+			System.out.print(countdown + ",");
+			if(countdown == 1) {
+				System.out.print("Liftoff!");
+			}
+			countdown--;
+		}
 
 	}
 
