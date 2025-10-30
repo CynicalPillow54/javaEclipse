@@ -44,7 +44,9 @@ public class PrintNumbersAsterixes {
 		
 		for (int i = loopStart; i >= 0; i--) {
 			System.out.print(i + " ");
+			
 			String asterix = "*".repeat(i);
+			
 			System.out.printf("%s%n", asterix);
 		}
 		
