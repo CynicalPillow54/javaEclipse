@@ -1,16 +1,16 @@
 package arrays;
 
-public class HoursAndWages {
+public class HoursAndWagesModified {
     public static void main (String[] args){
     	// Calculate the salary for an employee
     	// Rate is 10.25/hr 
     	// Output number of hours worked each day, total hours worked in week, and final weekly salary 
     	
-    	float rate = 10.25f; 
+    	float rate = 11.5f; 
     	
-    	int[] hrsWorked = {8, 7, 9, 7, 4};
+    	int[] hrsWorked = {8, 7, 9, 7, 4, 7};
     	
-    	float[] dailyPay = new float[5];
+    	float[] dailyPay = new float[6];
     	
     	float weeklyPay = 0;
     	
@@ -47,6 +47,9 @@ public class HoursAndWages {
     			break;
     		case 4:
     			weekDay = "Friday";
+    			break;
+    		case 5:
+    			weekDay = "Saturday";
     			break;
     		}
     		System.out.printf("Hours worked on %s: %d%n", weekDay, hrsWorked[j]);
