@@ -6,7 +6,6 @@ public class MarsAttacks {
 	
 	public static final String REDACTED = "\u25A0";
 
-
 	public static void main(String[] args) {
 		String[] fullReport = {
 				"FBI Report on UFOs",
@@ -98,9 +97,5 @@ public class MarsAttacks {
 			System.out.println(element);
 		}
 	}
-	
-	
-	
-	
 
 }
